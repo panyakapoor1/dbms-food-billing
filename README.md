@@ -45,6 +45,6 @@ A simple yet functional **Food Billing System** built with **Python**, **Streaml
 ```bash
 food_billing_system/
 │
-├── food_billing_system.py    # Main application file
+├── project-code.py    # Main application file
 ├── README.md                 # Project documentation
 └── requirements.txt          # Python dependencies
