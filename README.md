@@ -103,7 +103,7 @@ system = SQL.connect(
 
 **Run the Streamlit app:**
 ```bash
-streamlit run food_billing_system.py
+streamlit run project-code.py
 ```
 
 ---
