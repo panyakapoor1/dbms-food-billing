@@ -56,18 +56,18 @@ A simple yet functional **Food Billing System** built with **Python**, **Streaml
 
 **Ensure your MySQL database includes the following tables:**
 
- CREATE TABLE users (
+ - CREATE TABLE users (
     username VARCHAR(50) PRIMARY KEY,
     password VARCHAR(50)
 );
 
-CREATE TABLE item (
+- CREATE TABLE item (
     ItemNo INT PRIMARY KEY,
     ItemName VARCHAR(100),
     ItemPrice FLOAT
 );
 
-CREATE TABLE bills (
+- CREATE TABLE bills (
     Bill_No INT PRIMARY KEY,
     Customer_Name VARCHAR(100),
     Bill_Amount FLOAT
@@ -75,7 +75,7 @@ CREATE TABLE bills (
 
 **Add at least one user to get started:**
 
-INSERT INTO users (username, password) VALUES ('admin', 'admin123');
+- INSERT INTO users (username, password) VALUES ('admin', 'admin123');
 
 ---
 
@@ -85,13 +85,13 @@ INSERT INTO users (username, password) VALUES ('admin', 'admin123');
 
 **Edit your MySQL connection settings in the script:**
 
-system = SQL.connect(
+```system = SQL.connect(
     host="127.0.0.1",
     user="yourusername",
     password="yourpassword",
     database="yourdatabase"
 )
-
+```
 ---
 
 **Run the Streamlit app:**
@@ -111,7 +111,7 @@ system = SQL.connect(
 
 ## 🙌 Acknowledgments
 
-Special thanks to Streamlit and MySQL for enabling easy and rapid application development.
+- Special thanks to Streamlit and MySQL for enabling easy and rapid application development.
 
 ---
 
