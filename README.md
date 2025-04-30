@@ -48,7 +48,9 @@ A simple yet functional **Food Billing System** built with **Python**, **Streaml
 - MySQL Connector for Python
 
 **Install the required dependencies with:**
-- pip install streamlit mysql-connector-python
+```bash
+pip install streamlit mysql-connector-python
+```
 
 ---
 
