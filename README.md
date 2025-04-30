@@ -40,22 +40,21 @@ A simple yet functional **Food Billing System** built with **Python**, **Streaml
 
 ---
 
-🧰 Requirements
+## 🧰 Requirements
+
 Python 3.7+
-
 Streamlit
-
 MySQL Server (running locally or remotely)
-
 MySQL Connector for Python
 
-Install the required dependencies with:
+**Install the required dependencies with:**
 pip install streamlit mysql-connector-python
 
 ---
 
-⚙️ Database Setup
-Ensure your MySQL database includes the following tables:
+## ⚙️ Database Setup
+
+**Ensure your MySQL database includes the following tables:**
 
 CREATE TABLE users (
     username VARCHAR(50) PRIMARY KEY,
@@ -74,15 +73,17 @@ CREATE TABLE bills (
     Bill_Amount FLOAT
 );
 
-Add at least one user to get started:
+**Add at least one user to get started:**
 
 INSERT INTO users (username, password) VALUES ('admin', 'admin123');
 
 ---
 
-🚀 How to Run
+## 🚀 How to Run
+
 Clone the repository
-Edit your MySQL connection settings in the script:
+
+**Edit your MySQL connection settings in the script:**
 
 system = SQL.connect(
     host="127.0.0.1",
@@ -93,12 +94,13 @@ system = SQL.connect(
 
 ---
 
-Run the Streamlit app:
+**Run the Streamlit app:**
+
 streamlit run food_billing_system.py
 
 ---
 
-📌 To Do / Future Enhancements
+## 📌 To Do / Future Enhancements
 
 Role-based access (admin vs cashier)
 Date-wise bill history
@@ -107,7 +109,8 @@ UI/UX Styling enhancements
 
 ---
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
+
 Special thanks to Streamlit and MySQL for enabling easy and rapid application development.
 
 ---
